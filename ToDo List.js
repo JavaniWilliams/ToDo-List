@@ -22,6 +22,8 @@ window.addEventListener('load', () => {
 
     task_el.appendChild(task_content_el);
 
+    list_el.appendChild(task_el);
+
     const task_input_el = document.createElement('input');
     task_input_el.classList.add('text');
     task_input_el.type = 'text';
